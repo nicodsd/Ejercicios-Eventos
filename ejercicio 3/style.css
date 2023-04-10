@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(252, 151, 0);
+    color:white;
+    font-weight: 700;
+}
+
+#notasCont{
+    width: 100%;
+    display: flex;
+}
+
+#form{
+    
+}

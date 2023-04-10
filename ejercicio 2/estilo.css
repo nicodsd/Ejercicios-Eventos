@@ -1,0 +1,31 @@
+#calculator{
+    height: 11rem;
+    background-image: url(https://www.gestiopolis.com/wp-content/uploads/2002/01/5856660723_ef2b89a8e6_b1.jpg);
+}
+.col-12{
+    font-weight: 700;
+    text-shadow: rgb(87, 87, 87) 1px 2px 4px;
+}
+
+.background {
+    background-image: url(https://www.gestiopolis.com/wp-content/uploads/2002/01/5856660723_ef2b89a8e6_b1.jpg);
+    background-size: cover;
+    position: relative;
+  }
+  
+  .background:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #273d2b;
+    opacity: 0.5; /* Cambia este valor para ajustar la transparencia */
+  }
+  
+  .content {
+    z-index: 1;
+  }
+  
